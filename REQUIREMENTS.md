@@ -7,7 +7,7 @@ These are the notes from a meeting with the frontend developer that describe wha
 #### Products
 
 - Index /products [GET]
-- Create /products [POST] 
+- Create /products [POST] [token required]
 Request Body:
 ```bash
 {
@@ -34,7 +34,7 @@ Request Body:
 
 #### Users
 - Index /users [GET] [token required]
-- Create /users [POST] [token required]
+- Create /users [POST] 
 Request Body:
 ```bash
 {
